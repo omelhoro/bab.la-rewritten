@@ -1,0 +1,12 @@
+<li class="slide">
+    <h4>{{{qDesc}}}</h4>
+    <ul class="list-group">
+
+        {{#each qAllAns}}
+        <li class="list-group-item" data-value="{{this}}" data-bind="click: markSelection">{{this}}
+        {{/each}}
+    </li>
+
+    </ul>
+
+</li>

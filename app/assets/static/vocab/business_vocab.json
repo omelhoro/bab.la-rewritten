@@ -1,0 +1,240 @@
+{
+  "57098": {
+    "1": "Ich leite Ihre Nachricht an Frau Brown weiter.",
+    "2": "I'll pass your message on to Ms. Brown.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57099": {
+    "1": "K\u00f6nnten Sie ihm ausrichten, dass\u2026",
+    "2": "Could you tell him that\u2026",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57100": {
+    "1": "Ich sehe nach, dass er die Nachricht bekommt.",
+    "2": "I'll make sure he gets the message.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57101": {
+    "1": "Es tut mir Leid, aber Sie haben sich anscheinend verw\u00e4hlt.",
+    "2": "I'm afraid you've got the wrong number.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57102": {
+    "1": "Ich versuche, Sie durchzustellen.",
+    "2": "I'll try and put you through.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57103": {
+    "1": "Es tut mir Leid, ich habe mich verw\u00e4hlt.",
+    "2": "I must have dialled the wrong number. Sorry about that.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57104": {
+    "1": "Entschuldigen Sie bitte die St\u00f6rung.",
+    "2": "Sorry to have troubled you.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57105": {
+    "1": "Keine Ursache.",
+    "2": "No problem.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57106": {
+    "1": "Frau Price, ich kann Ihnen nur schwer folgen.",
+    "2": "Ms. Price, it's difficult for me to follow you.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57107": {
+    "1": "Sir, bitte beruhigen Sie sich und helfen Sie mir zu verstehen.",
+    "2": "Sir, please calm down and help me understand.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57108": {
+    "1": "Was halten Sie f\u00fcr eine angemessene L\u00f6sung f\u00fcr dieses Problem?",
+    "2": "What do you think is an appropriate solution to this problem?",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57109": {
+    "1": "Womit genau kann ich Ihnen helfen?",
+    "2": "How exactly may I help you?",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57110": {
+    "1": "Es tut mir Leid, ich kann Sie nicht h\u00f6ren. Die Verbindung ist heute sehr schlecht.",
+    "2": "I am sorry, I can't hear you. The line is very bad today.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57111": {
+    "1": "Es tut mir Leid, aber ich verstehe Sie nicht.",
+    "2": "I'm sorry, but I don't understand you.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57112": {
+    "1": "K\u00f6nnten Sie das bitte wiederholen?",
+    "2": "Could you repeat that, please?",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57113": {
+    "1": "K\u00f6nnten Sie bitte langsamer sprechen?",
+    "2": "Could you speak more slowly, please?",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57114": {
+    "1": "Ich w\u00fcrde gerne einen Termin vereinbaren.",
+    "2": "I'd like to arrange an appointment.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57115": {
+    "1": "Wann ist es g\u00fcnstig f\u00fcr Sie?",
+    "2": "When's convenient for you?",
+    "A1": "Wann w\u00fcrde es Ihnen am besten passen?",
+    "G2": "",
+    "O2": ""
+  },
+  "57116": {
+    "1": "W\u00e4re n\u00e4chster Mittwoch passend f\u00fcr Sie?",
+    "2": "Would next Wednesday be okay?",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57117": {
+    "1": "Im Auftrag von Herrn Cleaver m\u00f6chte ich mit Frau Wise einen Termin vereinbaren.",
+    "2": "On behalf of Mr. Cleaver I'd like to make an appointment with Ms. Wise.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57118": {
+    "1": "Ich muss unser Treffen auf den 15. Oktober verschieben.",
+    "2": "I have to postpone our meeting until October 15.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57119": {
+    "1": "Es tut mir Leid, aber ich muss unseren morgigen Termin absagen.",
+    "2": "I'm afraid I have to cancel our appointment for tomorrow.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57120": {
+    "1": "W\u00e4re es m\u00f6glich, einen anderen Termin zu vereinbaren?",
+    "2": "Would it be possible to set another date?",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57121": {
+    "1": "Frau Darcy ist es leider nicht m\u00f6glich, den Termin mit Herrn Bonnet einzuhalten.",
+    "2": "Ms. Darcy won't be able to keep the appointment with Mr. Bonnet.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57122": {
+    "1": "Ich muss gestehen, dass ich \u00fcberhaupt nicht mit Ihrem Service zufrieden bin.",
+    "2": "I have to say that I'm not at all satisfied with your service.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57123": {
+    "1": "Offenbar liegt ein Missverst\u00e4ndnis bez\u00fcglich der Lieferung von\u2026 vor.",
+    "2": "Apparently, there seems to be a misunderstanding about the delivery of\u2026",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57124": {
+    "1": "Bitte nehmen Sie unsere Entschuldigung f\u00fcr die Unannehmlichkeit an.",
+    "2": "Please accept our apologies for the inconvenience.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57125": {
+    "1": "Ich werde das sofort pr\u00fcfen.",
+    "2": "I'll look into it immediately.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57126": {
+    "1": "Lassen Sie mich das Gespr\u00e4ch zusammenfassen: \u2026",
+    "2": "Let me summarize the call: \u2026",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57127": {
+    "1": "Wenn ich noch irgendwas f\u00fcr Sie tun kann, rufen Sie bitte wieder an.",
+    "2": "If there's anything else I can do for you, please call again.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57128": {
+    "1": "Vielen Dank f\u00fcr Ihren Anruf, Herr Woods.",
+    "2": "Thank you very much for your call, Mr. Woods.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57129": {
+    "1": "Danke, dass Sie M&M angerufen haben. Auf Wiederh\u00f6ren.",
+    "2": "Thank you for calling M&M. Goodbye.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57130": {
+    "1": "Sch\u00f6n, dass Sie angerufen haben, Ms. Smith.",
+    "2": "I'm glad you called, Ms. Smith.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  },
+  "57131": {
+    "1": "Das waren alle Informationen, die ich brauchte. Danke vielmals.",
+    "2": "That was all the information I needed. Thank you so much.",
+    "A1": "",
+    "G2": "",
+    "O2": ""
+  }
+}

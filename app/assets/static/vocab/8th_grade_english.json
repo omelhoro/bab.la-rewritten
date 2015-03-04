@@ -1,0 +1,282 @@
+{
+  "7911": {
+    "1": "das Messer",
+    "2": "knife",
+    "A1": "",
+    "G2": "Subst. Pl knives",
+    "O2": ""
+  },
+  "7912": {
+    "1": "sparen",
+    "2": "to save",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7913": {
+    "1": "werden",
+    "2": "to become",
+    "A1": "",
+    "G2": "Verb become|became|become",
+    "O2": ""
+  },
+  "7914": {
+    "1": "erwarten",
+    "2": "to expect",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7915": {
+    "1": "bestellen",
+    "2": "to order",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7916": {
+    "1": "abwaschen",
+    "2": "to wash up",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7917": {
+    "1": "den Tisch abr\u00e4umen",
+    "2": "to clear the table",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7918": {
+    "1": "Eink\u00e4ufe machen",
+    "2": "to do the shopping",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7919": {
+    "1": "stehlen",
+    "2": "to steal",
+    "A1": "",
+    "G2": "Verb steal|stole|stolen",
+    "O2": ""
+  },
+  "7920": {
+    "1": "sch\u00fctteln",
+    "2": "to shake",
+    "A1": "",
+    "G2": "Verb shake|shook|shaken",
+    "O2": ""
+  },
+  "7921": {
+    "1": "cool",
+    "2": "wicked",
+    "A1": "",
+    "G2": "Adj.",
+    "O2": ""
+  },
+  "7922": {
+    "1": "s\u00fcchtig",
+    "2": "addicted",
+    "A1": "",
+    "G2": "Adj.",
+    "O2": ""
+  },
+  "7923": {
+    "1": "sofort",
+    "2": "right away",
+    "A1": "",
+    "G2": "Adv.",
+    "O2": ""
+  },
+  "7924": {
+    "1": "geizig",
+    "2": "mean",
+    "A1": "",
+    "G2": "Adj.",
+    "O2": ""
+  },
+  "7925": {
+    "1": "krank",
+    "2": "ill ",
+    "A1": "",
+    "G2": "Adj.",
+    "O2": ""
+  },
+  "7926": {
+    "1": "der Fuchs",
+    "2": "fox",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7927": {
+    "1": "die Art",
+    "2": "sort",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7928": {
+    "1": "der Specht",
+    "2": "woodpecker",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7929": {
+    "1": "das Eichh\u00f6rnchen",
+    "2": "squirrel",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7930": {
+    "1": "der Frosch",
+    "2": "frog",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7931": {
+    "1": "der Hirsch",
+    "2": "deer",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7932": {
+    "1": "der Maulwurf",
+    "2": "mole",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7933": {
+    "1": "der Igel",
+    "2": "hedgehog",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7934": {
+    "1": "die M\u00fclltonne",
+    "2": "dustbin",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7935": {
+    "1": "der Hof",
+    "2": "yard",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7936": {
+    "1": "der Mond",
+    "2": "moon",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7937": {
+    "1": "die Handschuhe",
+    "2": "gloves",
+    "A1": "",
+    "G2": "Subst. Pl",
+    "O2": ""
+  },
+  "7938": {
+    "1": "Feind\/in",
+    "2": "enemy",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7939": {
+    "1": "der Engel",
+    "2": "angel",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7940": {
+    "1": "der Liebling",
+    "2": "sweetheart",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7941": {
+    "1": "der Abschnitt",
+    "2": "section",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7942": {
+    "1": "die Zukunft",
+    "2": "future",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7943": {
+    "1": "der Teller",
+    "2": "plate",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7944": {
+    "1": "das Schlie\u00dffach",
+    "2": "locker",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7945": {
+    "1": "die Gabel",
+    "2": "fork",
+    "A1": "",
+    "G2": "Subst.",
+    "O2": ""
+  },
+  "7946": {
+    "1": "einsch\u00fcchtern",
+    "2": "to bully",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7947": {
+    "1": "vermissen",
+    "2": "to miss",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7948": {
+    "1": "versprechen",
+    "2": "to promise",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7949": {
+    "1": "umziehen\/bewegen",
+    "2": "to move",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  },
+  "7950": {
+    "1": "erlauben",
+    "2": "to allow",
+    "A1": "",
+    "G2": "Verb",
+    "O2": ""
+  }
+}

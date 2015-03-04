@@ -1,0 +1,24 @@
+id,en,de,ru
+wasWrong,Wrong,Falsch,Неправильно
+wasRight,Right,Richtig,Правильно
+flip,Flip,Umdrehen,Повернуть
+hiddenWord,Hidden Word,Verstecktes Word,Скрытое слово
+tryAgain,Try again,Nochmal,Eще раз
+tryNewTask,Try next task,Nächste Aufgabe,Следующее задание
+result,Result,Resultat,Резултат
+typeinLetter,Type a letter,Tippe etwas ein,Пиши 
+start,Start!,Beginne!,Начинай!
+startLearn,Learn,Lerne,Учить
+startInput,Write,Schreibe,Писать
+startMultiChoice,Choose,Wähle,Выбирать
+startLearnEx,Flip cards and check yourself.,Drehe die Karten um und kontrolliere dich selbst,
+startInputEx,Write the solution and the card turn automatically if you was right. Else press 'Enter' for solution.,"Schreibe die Lösung und die Karte dreht sich automatisch, wenn es richtig ist. Sonst drücke 'Enter' und die Lösung erscheint.",
+startMultiChoiceEx,Choose from 4 possible options.,Wähle aus 4 Möglichkeiten,
+typeInSolution,Write solution,Lösung,Решение
+optional,(is optional),(ist optional),
+numberOfWords,Number of words used,Anzahl der Wörter,Количество слов
+language,Language,Sprache,Язык
+hangman,Hangman,Galgenmännchen,Висельник
+quiz,Quiz,Tests,Тесты
+vocab,Vocabulary,Vokabeltrainer,Упражнения
+memory,Memory,Memorize,Мемори

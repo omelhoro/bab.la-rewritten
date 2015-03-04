@@ -1,0 +1,30 @@
+<div>
+
+    <div class="">
+        1. {{UI.language}}
+        <select class="form-control" data-bind="
+        options: availableLanguages,
+        optionsText: 'langName',
+        value: firstLang,
+        ">
+        </select>
+        2. {{UI.language}}
+        <select class="form-control" data-bind="
+        options: availableLanguages,
+        optionsText: 'langName',
+        value: secondLang,
+        ">
+        </select>
+        3. {{UI.language}} {{UI.optional}}
+        <select class="form-control" data-bind="
+        options: availableLanguages,
+        optionsText: 'langName',
+        value: thirdLang,
+        ">
+        </select>
+         <input type="range" name="points" value=4 min="2" max="10" data-bind="value: nWords">
+        <div>{{UI.numberOfWords}}: <strong data-bind="text: nWords"></strong></div>
+
+    </div>
+
+</div>

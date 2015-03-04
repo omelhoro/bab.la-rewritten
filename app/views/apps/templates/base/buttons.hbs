@@ -1,0 +1,14 @@
+<div>
+    <button class="btn btn-danger was-wrong" data-bind="click: wasWrong">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+
+        {{UI.wasWrong}}</button>
+    <button class="btn btn-success was-correct" data-bind="click: wasCorrect">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+        {{UI.wasRight}}</button>
+
+    <button class="btn btn-info flip-card" data-bind="click: showSolution">{{UI.flip}}</button>
+    <button class="btn btn-info listen-user" data-bind="click: startRecognition">
+        <span class="glyphicon glyphicon-volume-up"></span>
+        {{UI.record}}</button>
+</div>

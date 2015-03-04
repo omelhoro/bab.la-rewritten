@@ -1,0 +1,10 @@
+    <div id="choices" class="col-lg-4 sidebar-offcanvas" id="sidebar" role="navigation">
+
+        <ul class="nav nav-pills nav-stacked navbar-collapse">
+            {{#each sublinks}}
+                <li class="{{#if active}}active{{/if}}">
+                    <a href="{{link}}">{{name}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>

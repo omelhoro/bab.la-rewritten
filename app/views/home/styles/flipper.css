@@ -1,0 +1,46 @@
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+    	position: relative;
+
+}
+
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+	}
+
+.flip-container, .front, .back {
+	width: 200px;
+    height: 200px;
+}
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+		transform: rotateY(180deg);
+
+}
+
+/* hide back of pane during swap */
+/*TODO: a problem that front and back work nicely only with position set to absolute, but
+ not working in memory
+ */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(-180deg);
+}

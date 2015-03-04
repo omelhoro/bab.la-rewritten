@@ -1,0 +1,38 @@
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xs">
+        <div class="modal-content text-center">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{{UI.result}}</h4>
+            </div>
+            <div class="modal-main-panel {{#if isCorrect}}correct{{else}}false{{/if}}">
+
+                {{#if isCorrect}}
+                    {{UI.guessedRight}}:
+                    <div>
+                        <h3>{{word}}</h3>
+                    </div>
+                {{else}}
+                    {{UI.guessedFalse}}
+                {{/if}}
+                <div class="options">
+                {{#if isCorrect}}
+                {{else}}
+
+                    <button class="btn btn-default" data-bind="click: restart">
+                        <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+                        {{UI.tryAgain}}</button>
+                {{/if}}
+                    <button class="btn btn-default" data-bind="click: tryNew">
+                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+
+                        {{UI.tryNewTask}}</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div>
+
+    <button data-bind="click: startSession.bind($data,'self_control')" class="btn btn-info" data-toggle="tooltip"
+            title="{{UI.startLearnEx}}">
+        {{UI.startLearn}}</button>
+    <button data-bind="click: startSession.bind($data,'input')" class="btn btn-info" data-toggle="tooltip"
+            title="{{UI.startInputEx}}">
+        {{UI.startInput}}</button>
+    <button data-bind="click: startSession.bind($data,'multi_choice')" class="btn btn-info" data-toggle="tooltip"
+            title="{{UI.startMultiChoiceEx}}">
+        {{UI.startMultiChoice}}</button>
+
+    <!--
+    <button data-bind="click: startSession.bind($data,'voice_input')" class="btn btn-info" data-toggle="tooltip" title="{{UI.startMultiChoiceEx}}">
+        {{UI.voiceChoice}}</button>
+-->
+
+    <div class="modal-container">
+    </div>
+</div>

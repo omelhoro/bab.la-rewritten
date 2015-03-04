@@ -1,0 +1,12 @@
+<div>
+    <ul class="pagination">
+        {{#each data}}
+            <li class="letter-item" data-letter="{{this}}"><a class='text-uppercase' data-ix="{{@index}}" data-bind="click: userLetterList">{{this}}</a></li>
+        {{/each}}
+    </ul>
+    <div class="input-group col-lg-6">
+  <span class="input-group-addon" id="basic-addon1" data-bind="text: lettersTried"></span>
+  <input type="text" class="form-control" placeholder="{{UI.typeinLetter}}" data-bind="textInput: userLetter" aria-describedby="basic-addon1">
+</div>
+
+</div>
