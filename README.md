@@ -2,10 +2,16 @@
 
 This app works autonomously, without server-code, but it isn't a replacement for bab.la. It should only demonstrate the using of new frameworks and OOP-Patterns.
 
+Here is the hosting: 
+
+http://captain-sound-80861.bitballoon.com/ 
+(Is a completely static site)
+
 This site works as SPA, but it doesn't have to. The routes & controller are mainly boilerplates.
 The main point of this site, where also the main logic is, lies in the exercises. The models follow the schema of Bab.la.
 
 Some goals are:
+
  * Rewriting code in Object-Oriented and in a typesafe way (using TypeScript)
  * Using a build-tool for minifying code (using Brunch)
  * Separating the Html, CSS from the JS-Code 
@@ -25,6 +31,15 @@ Data is provided by:
  
  
 This code is licensed under MIT. Any using of code pieces must be accompanied by proper attribution .The data has the licence of the respective provider (e.g. wikipedia CC)
+
+To run this app, the following steps are required (look further for ):
+
+    git clone https://github.com/omelhoro/bab.la-rewritten
+    cd bab.la-rewritten
+    #here you should look down because you need node and npm and then bower and brunch libs
+    npm install
+    bower install
+    brunch watch --server
 
 
 Here is description of the Brunch-Template
