@@ -5,6 +5,7 @@ tempFn=require("/models/localization/templating")
 # Initialize the application on DOM ready event.
 $ ->
   Handlebars.registerPartial("sidebar", require("/views/apps/templates/base/sidebar"))
+  Handlebars.registerPartial("slide-meta", require("/views/apps/templates/base/slide-meta"))
   # a little function for jQuery to select only one and throw error otherwise; something like assert length==1
   $.one=(sel,con)->
     result=$(sel,con)
