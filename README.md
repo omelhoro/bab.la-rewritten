@@ -1,11 +1,13 @@
 # A OOP-Refactoring of Bab.la-Frontend
 
-This app works autonomously, without server-code, but it isn't a replacement for bab.la. It should only demonstrate the using of new frameworks and OOP-Patterns.
+This app works autonomously, without server-code, but it isn't a replacement for bab.la. It should only demonstrate the using of new frameworks and OOP-Patterns, **not** copying of every aspect of bab.la-games (that is spared for later).
+
+*There are no ability of logging the input or saving it somehow: that should be set up in accordance to a server architecture, which this app lacks of.* 
+
 
 Here is the hosting: 
 
 http://captain-sound-80861.bitballoon.com/ 
-(Is a completely static site)
 
 This site works as SPA, but it doesn't have to. The routes & controller are mainly boilerplates.
 The main point of this site, where also the main logic is, lies in the exercises. The models follow the schema of Bab.la.
@@ -14,9 +16,10 @@ Some goals are:
 
  * Rewriting code in Object-Oriented and in a typesafe way (using TypeScript)
  * Using a build-tool for minifying code (using Brunch)
- * Separating the Html, CSS from the JS-Code 
+ * Separating the Html, CSS from the JS-Code (Handlebars.js) 
+ * Effective CSS-Preprocessing (using Stylus)
  * Coding in reactive way (Knockout.js) 
- * Using the Touch Api (using swipeshow.js)
+ * Using the Touch Api (swipeshow.js)
  * Enabling distraction free mode (using Bootstrap's modals)
  * Using a Frontend-DB to hold data (TaffyDB)
  * Staying within Bab.la's css style by using Bootstrap
