@@ -16,6 +16,6 @@ RUN npm run bower
 COPY ./ /app
 RUN npm run build:prod
 
-CMD ["http-server","public","-p 5000"]
+CMD ["npm","run","server:prod"]
 
 EXPOSE 5000
