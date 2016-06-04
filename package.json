@@ -12,6 +12,7 @@
   "scripts": {
     "start": "brunch watch --server",
     "test": "brunch test",
+    "server:prod": "http-server public -p 5000",
     "bower": "bower install --allow-root",
     "build:prod": "brunch build --production",
     "lint": "coffeelint app && tslint app/**/*.ts"
