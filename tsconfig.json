@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**",
+        "!typings/browser/**",
+        "!typings/browser.d.ts",
+        "!typings/main/**"
+    ],
+    "exclude": [
+        "spa",
+        "views"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "files": [
+        "app/models/base/slide_modals.ts",
+        "app/models/base/slideshow.ts",
+        "app/models/base/view.ts",
+        "app/models/hangman/hangman.ts",
+        "app/models/memory/memory.ts",
+        "app/models/quiz/quiz_models.ts",
+        "app/models/quiz/quiz.ts",
+        "app/models/vocab/vocab_models.ts",
+        "app/models/vocab/vocab-mob.ts",
+        "app/models/vocab/vocab.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

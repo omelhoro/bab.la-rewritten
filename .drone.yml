@@ -1,0 +1,23 @@
+deploy:
+  rsync:
+    user: $$PROD_USER
+    host: $$PROD_HOST
+    port: 22
+    source: ./docker-compose.yml
+    target: /tmp/$$COMMIT/
+    delete: false
+    commands:
+      - docker-compose -f /tmp/$$COMMIT/docker-compose.yml pull
+      - docker-compose -f /tmp/$$COMMIT/docker-compose.yml -p bab-la up -d
+    when:
+      branch: master
+
+publish:
+  docker:
+    username: $$DOCKER_USERNAME
+    password: $$DOCKER_PASSWORD
+    email: $$DOCKER_EMAIL
+    storage_driver: vfs
+    repo: omelhoro1/bab-la
+    when:
+      branch: master

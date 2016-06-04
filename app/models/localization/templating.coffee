@@ -21,7 +21,6 @@ tempFn=(path)->
         localUi[k]=v[mainLang]
     merged=_.extend({UI:localUi},arguments[0])
     data.UI=localUi
-    console.log(arguments,data ,merged,"data")
     res=temp(data)
     #console.log(res,"res")
     res

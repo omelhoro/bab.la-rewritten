@@ -1,0 +1,23 @@
+<div class="swipeshow">
+    <ul class="slides text-center">
+        {{#each slideIx}}
+            <li class="slide" data-ix="{{this}}"></li>
+        {{/each}}
+    </ul>
+    <div class="status-control text-center">
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="previous btn btn-default">Back</button>
+ <!--           </span>
+            <span class="counter input-group-addon">0/40</span>
+            <input class="current-slide form-control" type="number"/>
+            <span class="input-group-btn">
+ -->               <button class="next btn btn-default" type="button">Forward</button>
+ -->               <button class="save btn btn-default push-left" type="button">Save</button>
+
+            </span>
+        </div>
+    </div>
+
+    <div class="dots text-center" hidden></div>
+</div>

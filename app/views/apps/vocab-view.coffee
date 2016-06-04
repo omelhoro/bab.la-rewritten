@@ -11,11 +11,10 @@ module.exports = class VocabView extends View
     linkAr=(@_makeObject(k,v,(nm)->"/vocab/#{nm}") for k,v of vocabDb)
     @.model=new Chaplin.Model({sublinks:linkAr,title:"Vocabulary-Game"})
     super()
-    ajaxPromise=Promise.resolve($.getJSON("/static/vocab/#{@.taskId}.json"))
-    ajaxPromise.then((data)=>
-      console.log(data,"ASD")
-      #data[0].imagePath="/images/vocab/#{@.taskId}.jpg"
-      # remap object of k,v to array of objects with k in v
-      data=(_.extend(v,{id:k},{source:v[1],target:v[2]}) for k,v of data)
-      taskItem=new vocab.VocabSession($("#app-container",@.el),data)
-    )
+    if @taskId
+      Promise.resolve($.getJSON("/static/vocab/#{@taskId}.json"))
+      .then((data)=>
+        # remap object of k,v to array of objects with k in v
+        data=(_.extend(v,{id:k},{source:v[1],target:v[2]}) for k,v of data)
+        taskItem=new vocab.VocabSession($("#app-container",@.el),data)
+      )
