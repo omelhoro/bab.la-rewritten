@@ -16,6 +16,12 @@
     "promisejs": "~0.0.6"
   },
   "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
     "backbone": {
       "dependencies": {
         "lodash": "*",
