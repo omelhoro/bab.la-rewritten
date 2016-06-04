@@ -15,7 +15,9 @@ module.exports = {
   startInput: {en: "Type"}
   startMultiChoice: {en: "Multichoice"}
   startEasyEx: {en: "Simply check yourself by choosing wrong and correct."}
-  startInputEx: {en: "Type the word and the program turns automatically if typed correct. Otherwise submit by pressing 'Enter' to see the word."}
+  startInputEx: {
+    en: """Type the word and the program turns automatically if typed correct.
+    Otherwise submit by pressing 'Enter' to see the word."""}
   startMultiChoiceEx: {en: "You will have 4 Options to choose."}
   typeInSolution: {en: "Type in solution"}
   firstLang: {en: "Language 1"}

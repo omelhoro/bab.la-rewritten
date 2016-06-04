@@ -23,15 +23,20 @@ module.exports = class HeaderView extends View
       @render()
     )
 
-  template: ()=>
+  template: () ->
     tempFn=$.tfn('/views/home/templates/header')
     # copy to set the active link
     currentNav=subappps.slice(0).map((e)->
       e.active=if e.link==HeaderView.path then true else false
-      e.name=if window.uiData then (window.uiData[e.link][window.uiLanguage] or window.uiData[e.link]["en"]) else e.name
+      e.name=
+        if window.uiData
+          (window.uiData[e.link][window.uiLanguage] or
+            window.uiData[e.link]["en"])
+        else e.name
       e
     )
     activeLang=window.uiLanguage
+    # coffeelint: disable=max_line_length
     uiLangsMenu=(_.extend(k,{active:k.langCode==activeLang,langCode:k.langCode or k.countryCode}) for k in uiLanguages)
     console.log(uiLangsMenu,activeLang)
     tempFn {data:currentNav,uiLanguages:uiLangsMenu}

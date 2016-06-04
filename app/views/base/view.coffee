@@ -9,10 +9,10 @@ module.exports = class View extends Chaplin.View
     @template
 
   _capitaliseFirstLetter: (string)->
-      string.charAt(0).toUpperCase() + string.slice(1);
+    string.charAt(0).toUpperCase() + string.slice(1)
 
   _makeObject:(k,v,fn)=>
-      normalName=k.replace(".json","")
-      userFriendly=normalName.split("_").map(@_capitaliseFirstLetter).join(" ")
-      obj={name:userFriendly,link:fn(normalName),active:@.taskId==normalName}
-      _.extend(obj,v)
+    normalName=k.replace(".json","")
+    userFriendly=normalName.split("_").map(@_capitaliseFirstLetter).join(" ")
+    obj={name:userFriendly,link:fn(normalName),active:@.taskId==normalName}
+    _.extend(obj,v)

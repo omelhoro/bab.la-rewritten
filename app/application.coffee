@@ -1,5 +1,5 @@
 # The application object.
-uiLangs=require "/models/localization/ui_langs"
+uiLangs=require "models/localization/ui_langs"
 module.exports = class Application extends Chaplin.Application
 
   start: ->
@@ -9,7 +9,10 @@ module.exports = class Application extends Chaplin.Application
     langs=(k.langCode or k.countryCode for k in uiLangs)
     ix=cookie.indexOf("lang")
     lang=cookie.slice(ix+5,ix+7)
-    window.uiLanguage=if langs.indexOf(lang)>-1 then lang else navigator.language.slice(0,2)
+    window.uiLanguage=
+      if langs.indexOf(lang)>-1
+        lang
+      else navigator.language.slice(0,2)
     document.cookie="lang=#{window.uiLanguage}; max-age=#{60*60}; path=/"
     $.getLocale().then((data)=>
       window.uiData=data
