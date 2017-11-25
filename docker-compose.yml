@@ -4,14 +4,6 @@ services:
     image: omelhoro1/bab-la
     container_name: bab-la
     restart: unless-stopped
-    ports:
-      - "5000:5000"
-    environment:
-      - VIRTUAL_HOST=bab-la.igor-fischer.rocks,babla.fischerops.com
-      - LETSENCRYPT_HOST=bab-la.igor-fischer.rocks,babla.fischerops.com
-      - VIRTUAL_NETWORK=proxy-tier
-      - VIRTUAL_PORT=5000
-      - LETSENCRYPT_EMAIL=fischerig@outlook.com
     networks:
       - proxy-tier
 networks:
