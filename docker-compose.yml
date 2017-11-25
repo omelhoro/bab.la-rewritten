@@ -4,6 +4,8 @@ services:
     image: omelhoro1/bab-la
     container_name: bab-la
     restart: unless-stopped
+    labels:
+      - "traefik.frontend.rule=Host:bab-la.igor-fischer.rocks,bab-la.fischerops.com"
     networks:
       - proxy-tier
 networks:
